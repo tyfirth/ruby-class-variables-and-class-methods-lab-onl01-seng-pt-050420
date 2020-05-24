@@ -16,6 +16,10 @@ class Song
     @@genres.uniq 
   end
   
+  def self.artists
+    @@artists.uniq
+  end
+  
   
   def initialize(name, artist, genre)
     @@count += 1 
