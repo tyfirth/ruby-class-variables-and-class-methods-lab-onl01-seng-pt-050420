@@ -24,6 +24,7 @@ class Song
       else
         genre_count[genre] = 1 
       end
+    end
   end
   
   def self.artists
